@@ -1,5 +1,0 @@
-alter table `best` add `a_created_at` timestamp NULL DEFAULT NULL;
-update best b join article a on b.article_id  = a.id set b.`a_created_at` = b.created_at;
-delete best from  best  left join article  on best.article_id  = article.id where a_created_at is null or article.deleted_at is not null;
-
-ALTER  TABLE  `best`  ADD  INDEX index_a_created_at (`a_created_at`);

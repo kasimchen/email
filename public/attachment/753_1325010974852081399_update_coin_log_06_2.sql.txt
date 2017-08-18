@@ -1,2 +1,0 @@
-alter table `coin_log` add `device_id` varchar(42) DEFAULT NULL;
-

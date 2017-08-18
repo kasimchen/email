@@ -1,5 +1,0 @@
-alter table `article` add  `keywords` varchar(1000) DEFAULT NULL;
-alter table `article` modify  column `posttype` enum('article','video','cdnVideo') DEFAULT NULL;
-
-
-

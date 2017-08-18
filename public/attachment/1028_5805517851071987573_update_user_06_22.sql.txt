@@ -1,3 +1,0 @@
-alter table `users` add `sys_version` varchar(20) DEFAULT NULL;
-
-

@@ -1,2 +1,0 @@
-alter table `article` add `size` VARCHAR(30) DEFAULT NULL ;
-alter table `article` modify `posttype` enum('article','video','cdnVideo');

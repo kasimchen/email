@@ -1,2 +1,0 @@
-alter table `users` add `unit_type` varchar(50) DEFAULT NULL;
-

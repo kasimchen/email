@@ -1,2 +1,0 @@
-alter table `report` add `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP;
-

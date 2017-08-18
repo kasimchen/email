@@ -1,3 +1,0 @@
-alter table `users` add `fb_token` varchar(200) DEFAULT NULL;
-
-

@@ -1,3 +1,0 @@
-alter table `category` add  `open` tinyint(1) DEFAULT 0;
-update `category` set open = 1;
-alter table `category` drop column `color`;

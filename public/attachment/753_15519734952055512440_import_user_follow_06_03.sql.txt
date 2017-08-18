@@ -1,2 +1,0 @@
-insert into user_center.user_follow(id,follow_id,`user_id`) 
-select id,follow_id,user_id from `user_follow`  where user_id is not null and follow_id is not null;

@@ -1,3 +1,0 @@
-alter table `best` add `categories`  int(4) DEFAULT NULL;
-ALTER  TABLE  `best`  ADD  INDEX index_categories (`categories`);
-update best b join article a on b.article_id  = a.id set b.`categories` = a.categories;

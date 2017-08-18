@@ -1,2 +1,0 @@
-alter table `users` add `osn_token` varchar(200) DEFAULT NULL;
-

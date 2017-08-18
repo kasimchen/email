@@ -1,2 +1,0 @@
-alter table `goods` 
-Add column percentage_number int not null default 0  comment '推荐比重' AFTER `weight` 

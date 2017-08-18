@@ -1,3 +1,0 @@
-alter table `coin_log` add `device_id` varchar(42) DEFAULT NULL;
-alter table `coin_log` add `type` enum('task','charge','consume','return') DEFAULT NULL;
-alter table `coin_log` add `from` enum('localhost','lucky_coin','gold_shop') DEFAULT NULL;
