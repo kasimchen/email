@@ -23,10 +23,9 @@
             </colgroup>
             <thead>
             <tr>
-                <th>ID</th>
-                <th>姓名</th>
-                <th>邮箱</th>
-                <th>注册时间</th>
+                <th>主题</th>
+                <th>来源</th>
+                <th>发送时间</th>
                 <th>操作</th>
             </tr>
             </thead>
@@ -35,10 +34,9 @@
             @if(!empty($data))
                 @foreach($data as $user)
                     <tr>
-                        <td>{{$user->id}}</td>
-                        <td>{{$user->name}}</td>
-                        <td>{{$user->email}}</td>
-                        <td>{{$user->created_at}}</td>
+                        <td>{{$user->subject}}</td>
+                        <td>{{$user->fromName}}</td>
+                        <td>{{$user->date}}</td>
                         <td></td>
                     </tr>
                 @endforeach

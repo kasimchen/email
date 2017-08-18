@@ -1,0 +1,12 @@
+CREATE TABLE `coin_log` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `count` int(4) NOT NULL,
+  `operate` int(1) DEFAULT '0',
+  `user_id` int(11) NOT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `type` enum('task','charge','consume') DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `index_user_id` (`user_id`),
+  KEY `index_created_at` (`created_at`),
+  KEY `index_operate` (`operate`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;

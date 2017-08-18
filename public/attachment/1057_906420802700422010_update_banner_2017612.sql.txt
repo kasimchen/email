@@ -1,0 +1,4 @@
+alter table `banner` add  `app_name` varchar(20) DEFAULT '';
+
+
+

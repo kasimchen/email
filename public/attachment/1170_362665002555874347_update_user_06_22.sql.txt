@@ -1,0 +1,4 @@
+alter table `users` add `app_name` varchar(50) DEFAULT NULL;
+alter table `users` add `sys_version` varchar(20) DEFAULT NULL;
+
+

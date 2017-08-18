@@ -1,0 +1,2 @@
+insert into user_center.user_actions(id,user_id,`article_id`,type)
+select id,user_id,`article_id`,type from `user_actions`;

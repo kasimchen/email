@@ -10,6 +10,42 @@
 
 namespace App\Model{
 /**
+ * App\Model\Email
+ *
+ * @property int $id
+ * @property int $e_id
+ * @property int $user_id
+ * @property \Carbon\Carbon|null $created_at
+ * @property string|null $date
+ * @property string|null $subject
+ * @property string|null $fromName
+ * @property string|null $fromAddress
+ * @property string|null $to
+ * @property string|null $cc
+ * @property string|null $replyTo
+ * @property string|null $textPlain
+ * @property string|null $textHtml
+ * @property string|null $attachment
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereAttachment($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereCc($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereEId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereFromAddress($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereFromName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereReplyTo($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereSubject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereTextHtml($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereTextPlain($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereTo($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Email whereUserId($value)
+ */
+	class Email extends \Eloquent {}
+}
+
+namespace App\Model{
+/**
  * App\Model\Permission
  *
  * @property int $id
@@ -62,8 +98,12 @@ namespace App\Model{
  * @property string|null $remember_token
  * @property \Carbon\Carbon|null $created_at
  * @property \Carbon\Carbon|null $updated_at
+ * @property string|null $company_email
+ * @property string|null $company_password
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Model\Role[] $roles
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\User whereCompanyEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\User whereCompanyPassword($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\User whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\User whereEmail($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\User whereId($value)

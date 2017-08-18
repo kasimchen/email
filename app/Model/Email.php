@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Email extends Model
 {
 
+    protected $table ='email';
+
 
     /**
      * The attributes that are mass assignable.
@@ -15,15 +17,8 @@ class Email extends Model
      * @var array
      */
     protected $fillable = [
-        'e_id', 'user_id', 'password','company_email','company_password',
+        'e_id', 'user_id', 'date','subject','fromName','fromAddress','to','cc','replyTo','textPlain','textHtml','attachment',
     ];
 
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+
 }
