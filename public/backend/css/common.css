@@ -1,0 +1,47 @@
+.layui-side {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    z-index: 999;
+    width: 200px;
+    overflow-x: hidden;
+}
+.nav-top>li{
+    float:right;
+}
+
+.nav-top{
+    height: 60px;
+}
+.logo{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    height: 60px;
+    font-size: 23px;
+    line-height: 59px;
+    margin-left: 18px;
+}
+.content{
+    top: 70px;
+    width: 85%;
+    margin: 0 auto;
+    z-index: -1;
+}
+.container{
+    margin: 20px 34px 0px 0px;
+}
+.site-title {
+    margin: 30px 0 20px;
+}
+.site-title fieldset {
+    border: none;
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+.site-title fieldset legend {
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 auto;
+}
