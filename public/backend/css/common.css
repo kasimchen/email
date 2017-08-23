@@ -29,7 +29,7 @@
     z-index: -1;
 }
 .container{
-    margin: 20px 34px 0px 0px;
+    margin: 20px 34px 0px 20px;
 }
 .site-title {
     margin: 30px 0 20px;
@@ -44,4 +44,12 @@
     font-size: 15px;
     font-weight: 300;
     margin: 0 auto;
+}
+.email-content{
+    margin-top: 50px;
+}
+.action-btn{
+    margin-top:20px;
+    margin-bottom:40px;
+
 }

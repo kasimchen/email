@@ -58,7 +58,7 @@ class UpdateEmail extends Command
         $mailUser = $user->company_email;
         $mailPass = decrypt($user->company_password);
 
-        $mailbox = new Mailbox($mailLink, $mailUser, $mailPass, public_path('attachment'));
+        $mailbox = new ImapMailbox($mailLink, $mailUser, $mailPass, public_path('attachment'));
         $mailsIds = $mailbox->searchMailbox('ALL');
         if(!$mailsIds) {
             die('Mailbox is empty');
@@ -72,6 +72,7 @@ class UpdateEmail extends Command
         foreach ($mailsIds as $id){
 
             if($id<=$last_id) continue;
+            //$mail = $mailbox->getMail($id,false);
             dispatch(new ReceiveMailInfo($id,$user->id,$mailUser,$mailPass));
 
         }

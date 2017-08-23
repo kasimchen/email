@@ -20,7 +20,7 @@ class UserController extends Controller
 
     }
 
-    public function profile($id,UserRepositories $userRepositories){
+    public function profile(UserRepositories $userRepositories){
 
         return view('backend.user.profile');
 

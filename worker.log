@@ -1,0 +1,12433 @@
+
+
+
+
+
+
+
+
+
+
+
+[2017-08-22 05:48:24] Processing: App\Jobs\ReceiveMailInfo
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2017-08-22 07:56:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 07:56:45] Processed:  App\Jobs\ReceiveMailInfo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2017-08-22 09:35:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:35:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:35:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:35:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:35:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:35:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:35:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:35:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:35:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:14] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:30] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:33] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:42] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:42] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:36:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:36:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:03] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:18] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:36] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:36] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:37:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:37:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:01] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:01] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:05] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:05] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:29] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:29] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:41] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:54] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:55] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:38:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:38:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:29] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:29] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:43] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:46] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:55] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:55] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:39:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:39:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:26] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:37] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:37] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:41] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:40:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:40:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:06] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:10] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:39] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:39] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:42] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:42] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:50] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:54] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:41:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:41:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:05] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:05] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:09] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:09] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:39] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:39] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:42:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:42:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:07] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:43:08] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:15] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:18] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:19] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:22] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:26] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:26] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:29] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:30] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:36] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:36] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:43:36] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:36] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:41] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:46] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:48] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:43:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:43:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:00] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:00] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:44:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:04] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:05] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:05] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:10] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:10] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:10] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:14] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:14] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:40] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:40] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:44:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:48] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:55] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:55] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:58] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:44:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:44:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:06] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:07] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:07] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:14] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:18] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:19] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:19] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:22] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:26] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:26] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:30] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:37] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:37] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:55] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:55] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:45:58] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:45:58] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:06] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:09] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:09] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:10] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:15] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:19] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:19] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:26] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:26] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:29] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:37] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:37] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:42] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:43] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:48] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:46:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:46:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:08] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:08] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:15] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:18] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:38] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:38] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:41] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:44] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:48] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:47:58] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:47:58] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:03] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:03] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:09] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:09] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:36] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:36] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:36] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:37] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:40] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:40] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:48] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:48:48] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:54] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:54] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:48:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:57] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:57] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:48:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:48:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:00] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:00] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:49:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:03] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:06] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:18] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:21] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:21] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:31] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:31] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:32] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:32] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:35] Processed:  App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:35] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:46] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:46] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:47] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:47] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:50] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:50] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:54] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:49:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:49:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:03] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:05] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:09] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:09] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:17] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:24] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:24] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:28] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:39] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:39] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:42] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:43] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:43] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:46] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:46] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:50] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:54] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:54] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:55] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:55] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:50:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:50:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:00] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:00] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:01] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:03] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:05] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:05] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:06] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:06] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:09] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:09] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:10] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:12] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:13] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:13] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:15] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:16] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:16] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:19] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:19] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:20] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:20] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:25] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:25] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:27] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:28] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:29] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:30] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:33] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:33] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:36] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:36] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:37] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:37] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:42] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:43] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:43] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:44] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:51] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:51] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:51:59] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:51:59] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:01] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:01] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:02] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:04] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:04] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:05] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:05] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:07] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:08] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:08] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:10] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:11] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:11] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:12] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:14] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:14] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:15] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:15] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:17] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:18] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:19] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:19] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:23] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:23] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:26] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:26] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:26] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:27] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:29] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:29] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:30] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:30] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:34] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:34] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:35] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:35] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:38] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:38] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:40] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:40] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:45] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:45] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:46] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:46] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:49] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:49] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:52] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:52] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:53] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:53] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:56] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:56] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:52:57] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:52:57] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:53:01] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:53:01] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:53:01] Processed:  App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:53:02] Processing: App\Jobs\ReceiveMailInfo
+[2017-08-22 09:53:03] Processed:  App\Jobs\ReceiveMailInfo
+
+
+[2017-08-22 09:53:05] Processing: App\Jobs\ReceiveMailInfo
+
+[2017-08-22 09:53:07] Failed:     App\Jobs\ReceiveMailInfo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo                                                                                 
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                                                                                                         
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+Magick: quitting due to signal 51 (SIGTERM) "Terminated"...
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+                                                                               
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]               
+  The process "'/usr/local/Cellar/php70/7.0.22_14/bin/php' 'artisan' queue:wo  
+  rk '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=3"   
+  exceeded the timeout of 60 seconds.                                          
+                                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

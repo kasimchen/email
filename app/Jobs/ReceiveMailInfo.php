@@ -9,7 +9,10 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use PhpImap\Mailbox;
+use PhpImap\Mailbox as ImapMailbox;
+use PhpImap\IncomingMail;
+use PhpImap\IncomingMailAttachment;
+
 
 class ReceiveMailInfo implements ShouldQueue
 {
@@ -47,10 +50,12 @@ class ReceiveMailInfo implements ShouldQueue
         $mailLink="{{$mailServer}:143}INBOX" ; //imagp连接地址：不同主机地址不同
 
 
-        $mailbox = new Mailbox($mailLink, $this->userName, $this->userPassword, public_path('attachment'));
+        $mailbox = new ImapMailbox($mailLink, $this->userName, $this->userPassword, public_path('attachment'));
 
         $mail = $mailbox->getMail($this->eId,false);
         unset($mail->headersRaw);
+
+
 
         $email_user[$mail->fromAddress] = $mail->fromName;
         $email_user = array_merge($email_user,$mail->to);
@@ -105,6 +110,7 @@ class ReceiveMailInfo implements ShouldQueue
         $mail_item['replyTo'] = json_encode($mail->replyTo);
         $mail_item['textPlain'] = $mail->textPlain;
         $mail_item['textHtml'] = str_replace($old_attachements_array,$attachements_array,$textHtml);
+        $mail_item['origin_textHtml'] = $textHtml;
         $mail_item['attachment'] = json_encode(array_values($attachements_array));
         $mail_item['user_id'] = $this->userId;
         $mail_item['e_id'] = $mail->id;
@@ -120,6 +126,8 @@ class ReceiveMailInfo implements ShouldQueue
 
         \DB::table('email')
             ->insert($mail_item);
+
+        \Log::notice('更新一封邮件');
 
 
     }

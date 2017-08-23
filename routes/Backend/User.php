@@ -8,7 +8,7 @@ Route::group([
 
 
 	Route::get('index', 'UserController@index')->name('index');
-    Route::get('profile/{id}', 'UserController@profile')->name('profile');
+    Route::get('profile', 'UserController@profile')->name('profile');
     Route::post('updateProfile/{id}', 'UserController@updateProfile')->name('updateProfile');
 
 

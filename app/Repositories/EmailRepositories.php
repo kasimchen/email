@@ -26,7 +26,7 @@ class EmailRepositories
 
     public function getEmailById($id){
 
-        Email::whereId($id)->first();
+      return   Email::whereId($id)->first();
 
     }
 

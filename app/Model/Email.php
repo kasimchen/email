@@ -17,7 +17,7 @@ class Email extends Model
      * @var array
      */
     protected $fillable = [
-        'e_id', 'user_id', 'date','subject','fromName','fromAddress','to','cc','replyTo','textPlain','textHtml','attachment',
+        'e_id', 'user_id', 'date','subject','fromName','fromAddress','to','cc','replyTo','textPlain','textHtml','origin_textHtml','attachment',
     ];
 
 

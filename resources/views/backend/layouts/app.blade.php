@@ -40,14 +40,18 @@
         @yield('content')
     </div>
 
+
     @include('backend.includes.footer')
 
     <script src="{{asset('js/main.js')}}"></script>
-    <script src="{{asset('plugins/layui/lay/dest/layui.all.js')}}"></script>
+    <script src="{{asset('plugins/layui/layui.all.js')}}"></script>
         <!-- JavaScripts -->
         @yield('before-scripts')
 
         @yield('after-scripts')
+
+    @include('backend.includes.message')
+
     </body>
 </html>
 

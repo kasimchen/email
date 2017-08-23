@@ -115,3 +115,41 @@ namespace App\Model{
 	class User extends \Eloquent {}
 }
 
+namespace App\Model{
+/**
+ * App\Model\Version
+ *
+ * @property int $id
+ * @property string $content
+ * @property string|null $db_content
+ * @property string|null $env_content
+ * @property int|null $e_id
+ * @property \Carbon\Carbon|null $created_at
+ * @property \Carbon\Carbon|null $updated_at
+ * @property int $user_id
+ * @property string|null $deleted_at
+ * @property string $title
+ * @property string $project
+ * @property string|null $app
+ * @property-read \App\Model\User $author
+ * @method static bool|null forceDelete()
+ * @method static \Illuminate\Database\Query\Builder|\App\Model\Version onlyTrashed()
+ * @method static bool|null restore()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereApp($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereDbContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereEId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereEnvContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereProject($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereTitle($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Model\Version whereUserId($value)
+ * @method static \Illuminate\Database\Query\Builder|\App\Model\Version withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|\App\Model\Version withoutTrashed()
+ */
+	class Version extends \Eloquent {}
+}
+

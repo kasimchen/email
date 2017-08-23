@@ -183,7 +183,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Zizaco\Entrust\EntrustServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
-
+        HieuLe\Active\ActiveServiceProvider::class,
 
 
 
@@ -241,6 +241,8 @@ return [
         'Html'=>Collective\Html\HtmlFacade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Entrust' => Zizaco\Entrust\EntrustFacade::class,
+        'Active' => HieuLe\Active\Facades\Active::class,
+
 
 
 

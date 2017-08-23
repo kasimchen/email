@@ -23,6 +23,13 @@
                 </div>
             </div>
 
+        <div class="layui-form-item">
+            <label class="layui-form-label">邮箱签名</label>
+            <div class="layui-input-block">
+                <textarea name="email_sign"  id="email_sign" placeholder="请输入邮箱签名" class="layui-textarea">{!! auth_user()->email_sign !!}</textarea>
+            </div>
+        </div>
+
             <div class="layui-form-item">
                 <div class="layui-input-block">
                     <button class="layui-btn" lay-submit lay-filter="formUpdateName">更新</button>
@@ -70,13 +77,26 @@
 
     <script>
         //Demo
-        layui.use('form', function(){
-            var form = layui.form();
+
+
+
+        layui.use(['form', 'layedit', 'laydate'], function(){
+            var form = layui.form()
+                ,layer = layui.layer
+                ,layedit = layui.layedit;
+
+            var editIndex = layedit.build('email_sign',{
+                tool: ["strong","italic","underline","|","left","center","right","|","link","unlink"]
+                ,height: 200
+            });
+
 
             //监听提交
             form.on('submit(formUpdateName)', function(data){
 
                 var url =  data.form.action;
+
+                data.field.email_sign = layedit.getContent(editIndex);
 
                 $.ajax({
 

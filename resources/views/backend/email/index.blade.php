@@ -12,6 +12,9 @@
 
 @section('content')
 
+    <a href="{{route('email.synchro')}}" class="layui-btn">同步邮件</a>
+
+
     <div class="layui-form">
         <table class="layui-table">
             <colgroup>
@@ -32,11 +35,11 @@
             <tbody>
 
             @if(!empty($data))
-                @foreach($data as $user)
+                @foreach($data as $item)
                     <tr>
-                        <td>{{$user->subject}}</td>
-                        <td>{{$user->fromName}}</td>
-                        <td>{{$user->date}}</td>
+                        <td><a href="{{route('email.show',['id'=>$item->id])}}">{{$item->subject}}</a></td>
+                        <td>{{$item->fromName}}</td>
+                        <td>{{$item->date}}</td>
                         <td></td>
                     </tr>
                 @endforeach

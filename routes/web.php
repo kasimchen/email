@@ -25,12 +25,10 @@ Route::group([
     Route::post('register', 'RegisterController@register')->name('register');
 
 
-
-
-
 });
 
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+Route::post('common/upload', 'CommonController@upload')->name('upload');
 
 
 Route::group(['namespace' => 'Backend'], function () {
